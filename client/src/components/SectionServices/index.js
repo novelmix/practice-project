@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './SectionServices.module.sass';
 import { Link } from 'react-router-dom';
-// import './style.css';
 
 const SectionServices = () => {
   return (
