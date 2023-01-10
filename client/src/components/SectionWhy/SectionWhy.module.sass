@@ -1,0 +1,93 @@
+.section-why
+  .why-container
+    .why-container-info
+      display: grid
+      grid-template-columns: 2fr 1fr
+      gap: 30px
+      max-width: 1140px
+      margin: 50px auto
+      .why-info-first
+        background: linear-gradient(271.19deg,#307DF6 0%,#14BBBF 100%),#FFFFFF
+        border-radius: 40px
+        padding: 100px 20px 100px 20px
+        box-shadow: 6px 6px 18px 0px #000000b4
+        .why-info-first-content
+          max-width: 550px
+          margin: 0 auto
+          text-align: center
+          & h3
+            color: #fff
+            font-weight: 700
+            font-size: 48px
+            margin: 0 0 40px 0
+          .why-info-first-content-button
+            display: flex
+            flex-direction: row
+            align-items: center
+            justify-content: space-between
+            a
+              text-decoration: none
+            span 
+              font-size: 16px
+              font-weight: 700
+              color: #fff
+            .button
+              line-height: 48px
+              font-size: 16px
+              color: #fff
+              display: flex
+              gap: 20px
+              align-items: center
+              font-weight: 700
+              padding: 0 20px
+              transition: all ease 0.3s
+              border-radius: 8px
+              background: rgba(255,255,255,.16)
+              box-shadow: 6px 6px 18px 0px #00000056
+              &:hover
+                background: rgba(255,255,255,0.3)
+      .why-info-second
+        box-shadow: 0 16px 40px rgb(48 127 245 / 20%)
+        border-radius: 40px
+        padding: 40px
+        h3
+          font-weight: 700
+          font-size: 32px
+          margin: 0 0 20px 0
+        .why-info-second-content-item
+          margin: 0 0 20px 0
+          position: relative
+          &::before
+            content: ""
+            display: block
+            position: absolute
+            left: -40px
+            top: 0
+            width: 6px
+            height: 24px
+            background: #3080F5
+            border-radius: 0 8px 8px 0
+          h4 
+            font-size: 18px
+            font-weight: 700
+            margin: 0 0 10px 0
+          p 
+            color: #343434
+            font-size: 16px
+            margin: 0
+        .why-info-second-content-button
+          display: flex
+          justify-content: space-between
+          a
+            text-decoration: none
+            font-size: 12px
+            font-weight: 500
+            padding: 8px 16px
+            border-radius: 10px
+            transition: all ease 0.3s
+            color: #393939
+            background: rgba(0,0,0,.04)
+            border: 1px solid rgba(0,0,0,.08)
+            box-shadow: 6px 6px 6px 0px #0000001a
+            &:hover
+              background: rgba(0,0,0,.1)
